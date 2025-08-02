@@ -1,0 +1,112 @@
+/* Add in App.css or imported CSS file */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-size: 16px;    
+    font-weight: 400;
+}
+
+.custom-hover:hover {
+  background-color: #232628;
+  color: white ;
+}
+.btn-custom{
+  color: rgb(49, 49, 209);
+  font-weight: 600;
+
+}
+footer a {
+ color: #6c757d;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #2049b9;
+  text-decoration: underline;
+}
+.custom-link a{
+  margin: 0 10px ;
+  font-size: 13px;
+  color: #6c757d;
+}
+.muted p{
+  color: #6c757d;
+  font-size: 14px;
+
+}
+.custom-pricing-list{
+  font-size: 12px;
+  line-height: 2;
+}
+.quick-links-list li{
+  list-style: none;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0;
+  border-bottom: 1px solid #ddd ;
+}
+.quick-links-list a{
+  font-size: 18px;
+  line-height: 2;
+  text-decoration: none;
+}
+
+ .form-control:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border-color: #ced4da !important; /* reset Bootstrap blue border */
+  border-left: none !important ;
+}
+.form-control{
+border-left: none !important ;
+}
+/* ============================================================ */
+/* HamburgarModal Custom CSS */
+
+/* 1️⃣ Changing Modal Width x
+Bootstrap sets modal width via .modal-dialog. */
+.custom-modal-dialog {
+  max-width: 900px !important;
+  width: 60vw !important;
+  position: absolute;
+  top: 4rem;
+  right: 9rem;
+  margin: 0;
+}
+
+/*2️⃣ Changing Modal Height
+The modal height is defined by .modal-content.*/
+.custom-modal-content {
+  height: 60vh;
+}
+.modal-header{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  margin-right: 1rem !important;
+}
+.modal-title{
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  padding: 0 1rem !important;
+  border-bottom: none;
+  font-size: 15px !important;    
+}
+.logo-block a{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: none;
+}
+.list-unstyled a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+.list-unstyled a:hover{
+  color: #2049b9;
+  text-decoration: underline;
+}
